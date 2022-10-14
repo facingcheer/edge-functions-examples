@@ -6,7 +6,7 @@ export default async (request: Request, context: Context) => {
   );
 
   // Look for the query parameter, and return if we don't find it
-  if (url.searchParams.get("method") !== "transform") {
+  if (url.searchParams.get("method") !== "jms-decode") {
     return;
   }
 
