@@ -12,6 +12,10 @@
 [[edge_functions]]
   function = "transform"
   path = "/*"
+
+[[edge_functions]]
+  function = "jms-decode"
+  path = "/*"
   
 [[edge_functions]]
   function = "set-response-header"
