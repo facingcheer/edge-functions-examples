@@ -15,7 +15,7 @@
 
 [[edge_functions]]
   function = "jms-decode"
-  path = "/*"
+  path = "/jms-decode"
   
 [[edge_functions]]
   function = "set-response-header"
